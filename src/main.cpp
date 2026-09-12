@@ -62,7 +62,7 @@ void appleApple() {
 }
 
 void SnakeGame() {
-  readInputs(); // Continuously check inputs for responsiveness
+  readInputs(); 
   
   if (millis() - Timer >= 200) {
     Timer = millis(); 
@@ -116,6 +116,5 @@ void loop() {
   dp.print("RetroByte Games");
   dp.setCursor(12, 18);
   dp.print("Snake Game");
-  menuMove();
   dp.display(); 
 }
